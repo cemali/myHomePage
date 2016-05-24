@@ -1,0 +1,38 @@
+// myjQuery
+// styling the em element for full stack
+// Matt Lee
+// 05-09-2016
+
+#myStyle:hover {
+ background-color: red;
+ //cursor: pointer;
+    
+}
+
+#myStyle {
+    color: #ffffff;
+    font-family: "Montserrant", sans-serif;
+    font-size: 60%;
+    font-style: oblique;
+}
+
+em {
+    
+  font-style: normal;
+    
+}
+
+.myStyleSpan {
+    color: #ffffff;
+    font-family: "Montserrant", sans-serif;  
+}
+
+
+#iAM {
+    color: #ffffff;
+    font-family: "Montserrant", sans-serif;
+    font-size: 60%; 
+}
+
+
+

@@ -1,0 +1,12 @@
+﻿#myHomePageNotes
+#This site will used some PSD and pics for web development on its pages.
+
+#file:///C:/WebSiteDesign/html5Template/Free-Architecture-Website-Template-PSD-sources/site/index.html 
+
+
+#The psd pages are design to show how they will like to see their final pages. This is the mockup.
+#The add-ons are the fonts for the different type of letters being used. 
+#
+# 11-8-2014- working with images and css - completed
+# 11-9-2014  working on logo to change to holden4u to build 
+# 11-9-2014 work with media queries and viewport 

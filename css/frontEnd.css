@@ -1,0 +1,267 @@
+
+
+body {
+    
+        font-family: Arial, Vendana, sans-serif;
+        font-size: 12px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#greetMe {
+    font-size: 1.3em;
+}
+
+#content {
+	overflow: auto;
+}
+
+#frontEnd {
+    margin: 1%;
+}
+
+.column1, .column2, .column3 { // place in larger screen not need in 320 px.
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+.column3 {
+	margin-right: 0%;
+}
+
+#frontend {
+	height: 20em;
+	margin-bottom: 1em;
+	background-color: #ffffff;
+        color: #0088CC
+}
+
+
+//.myPhoto320 {
+//    
+//}
+
+//.myPhotowhole {
+//    
+//}
+
+@media screen and (max-width: 20em) { /*320 px */
+    
+    .column1, .column2, .column3 {
+        width: 31.3%;
+        float: none;
+        margin: 1%;     
+    }
+    
+    
+    
+    .photo320 {
+        display: none;
+    }
+
+    .photowhole {
+        display: none;
+    }
+    
+    //h1.worksite {
+    //    display: none;
+    //}
+   // .column3 {
+   //     margin-right: 0%;
+   // }
+//    .bt-menu-trigger {
+//        width: 40px;
+//        margin-left: -20px;
+//    }
+
+//    .bt-menu ul li {
+//        margin: 0 2%;
+//    }
+
+//    .bt-menu ul li:nth-child(3) {
+//        margin-right: 50px;
+//    }
+
+//    .bt-menu ul li:nth-child(4) {
+//        margin-left: 50px;
+//    }
+
+//    .bt-menu ul li a:before {
+//        font-size: 24px;
+//    }
+
+//    .bio {
+        // margin-top: 50px;
+        //  margin-left: 20px;
+//        font-size: medium;
+//        width: 100%;
+        //margin-right: 30px;
+        //z-index: 10;
+//    }
+
+//    .myPhoto {
+//        // float: left;
+//        //position: fixed;
+//        //top: 100px;
+//        //right: 100px;
+//        //padding: 0px 80px 0px 0px;
+//        padding: 0px;
+//        border-radius: 100px;
+//        -moz-border-radius: 100px;
+//        -webkit-border-radius: 100px;
+//
+//    }
+}
+
+
+
+@media screen and (max-width: 36.625em) { // 586px;
+    .column1, .column2, .column3 {
+	width: 31.3%;
+	float: none;
+	margin: 1%;
+    }
+    
+    .photo320 {
+        display: none;
+    }
+
+    .photowhole {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 55.5em) { //888px;
+        
+    .column1, .column2, .column3 {      
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+    }   
+    //  .photo320 {
+    //    
+    //}
+
+    //.photowhole {
+    //    float: right;
+    //}
+    
+   //.portfolio {
+   //     display: flex;
+   // }
+    .photo320 { 
+        float: left;
+        width: 300px;
+    }
+    
+    .photowhole { 
+        float: right;
+        width: calc(100% - 300px);
+    }
+}
+
+@media screen and (max-width: 59.9375em) { //959px;
+	.bt-menu ul li a {
+		font-size: 90%;
+	}
+        
+        .myPhoto {
+          //  margin-right: 40px;
+          
+        }
+        
+        .photo320 { //used to bring div class in parallel from the frontend code
+            float: left;
+            width: 300px;
+        }
+    
+        .photowhole { // also used to bring div class in parallel frontend code
+            float: right;
+            width: calc(100% - 300px);
+        }
+}
+
+@media screen and (max-width: 64.0625em) { //1025px;
+	.bt-menu ul li a {
+		font-size: 90%;
+	}
+        
+        .myPhoto {
+          //  margin-right: 40px;
+          
+        }
+        
+        .photo320 { //used to bring div class in parallel from the frontend code
+            float: left;
+            width: 300px;
+        }
+    
+        .photowhole { // also used to bring div class in parallel frontend code
+            float: right;
+            width: calc(100% - 300px);
+        }
+}
+
+@media screen and (max-width: 65.1em) { //1041.6px;
+	.bt-menu ul li a {
+		font-size: 90%;
+	}
+        
+        .myPhoto {
+          //  margin-right: 40px;
+          
+        }
+        
+        .photo320 { //used to bring div class in parallel from the frontend code
+            float: left;
+            width: 300px;
+        }
+    
+        .photowhole { // also used to bring div class in parallel frontend code
+            float: right;
+            width: calc(100% - 300px);
+        }
+}
+
+@media screen and (max-width: 80em) { //1280px;
+	.bt-menu ul li a {
+		font-size: 90%;
+	}
+        
+        .myPhoto {
+          //  margin-right: 40px;
+          
+        }
+        
+        .photo320 { //used to bring div class in parallel from the frontend code
+            float: left;
+            width: 300px;
+        }
+    
+        .photowhole { // also used to bring div class in parallel frontend code
+            float: right;
+            width: calc(100% - 300px);
+        }
+}
+
+@media screen and (max-width: 73em) { //1168px;
+	.bt-menu ul li a {
+		font-size: 90%;
+	}
+        
+        .myPhoto {
+          //  margin-right: 40px;
+          
+        }
+        
+        .photo320 { //used to bring div class in parallel from the frontend code
+            float: left;
+            width: 300px;
+        }
+    
+        .photowhole { // also used to bring div class in parallel frontend code
+            float: right;
+            width: calc(100% - 300px);
+        }
+}

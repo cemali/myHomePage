@@ -1,0 +1,7 @@
+This notes are for my testing of indexTest html and myTestStyle css files - 04/29/2016
+
+The purpose of this test is to show the different ways one can style the same document content but look totally different with css styles.
+
+The zen of css design and http://www.csszengarden.com/221/ helps demostrates these examples. 
+
+Walked the entire css style sheet in chome development tool - inspect element.
