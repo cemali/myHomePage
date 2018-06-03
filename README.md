@@ -1,3 +1,3 @@
 # myHomePage
 my mobile home website directory 
-This is my mobile home page website. 
+This directory is for my mobile home page website. 
